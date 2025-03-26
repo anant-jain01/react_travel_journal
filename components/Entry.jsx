@@ -2,7 +2,7 @@ export default function Entry(props) {
   return (
     <article className="journal-entry">
       <div className="main-image-container">
-        <img className="main-image" src={props.image} alt="mount fuji" />
+        <img className="main-image" src={props.image} alt={props.title}/>
       </div>
       <div className="info-container">
         <img
