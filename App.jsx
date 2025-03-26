@@ -1,3 +1,4 @@
+import "data.js";
 import Entry from "./components/Entry.jsx";
 import Header from "./components/Header.jsx";
 export default function App() {
