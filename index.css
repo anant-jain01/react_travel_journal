@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
 }
 
@@ -11,7 +12,7 @@ body {
 }
 
 header {
-  background: #F55A5A;
+  background: #f55a5a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,12 +62,12 @@ article.journal-entry .main-image {
 }
 
 .info-container a {
-  color: #2B283A;
+  color: #2b283a;
   font-size: 0.7rem;
 }
 
 .info-container a:visited {
-  color: #918E9B;
+  color: #918e9b;
 }
 
 .info-container h2.entry-title {
@@ -83,6 +84,6 @@ article.journal-entry .main-image {
   font-size: 0.8rem;
   display: -webkit-box;
   -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;  
+  -webkit-box-orient: vertical;
   overflow: hidden;
 }
