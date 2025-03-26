@@ -5,12 +5,9 @@ export default function App() {
   const dataElements = data.map((data) => {
     return (
       <Entry
-        title={data.title}
-        country={data.country}
-        googleMapsLink={data.googleMapsLink}
-        dates={data.dates}
-        text={data.text}
-        image={data.img.src}
+        key={data.id}
+        {...data}
+        image={data.image.src}
       />
     );
   });
